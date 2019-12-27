@@ -1,6 +1,8 @@
 // CHALLENGE 1: LONGEST WORD
 // Return the longest word of a string
-// ex. longestWord('Hi there, my name is Brad') === 'there,'
+// If more than one longest word, put into an array
+// ex. longestWord('Hello, my name is Brad') === 'hello'
+// ex. longestWord('Hello there, my name is Brad') === ['hello', 'there']
 
 function longestWord(sen) {
     // SOLUTION 1 - Return a single longest word
