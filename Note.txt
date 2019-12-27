@@ -4,3 +4,10 @@ https://github.com/Annie-Huang/javascript_cardio
 
 ===================================================================
 
+C:\react\javascript_cardio\session1>node inspect challenge5-maxCharacter.js
+debug>c         continue
+debug>repl
+> char          Print the variable you want to inspect.
+> charMap
+control + c to escape the repl
+debug>c         continue to the next 'debugger break point'
