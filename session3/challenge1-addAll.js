@@ -40,7 +40,7 @@ function addAll1(...numbers) {
     return numbers.reduce((acc, cur) => acc + cur);
 }
 
-// I like this solution....
+// I like this solution, I think of it myself =) ....
 function addAll2(num, ...rest) {
     if (rest.length === 0) return num;
     return num + addAll2(...rest);
